@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\bin\Debug\netcoreapp2.1\CorreçãoProva.deps.json
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\bin\Debug\netcoreapp2.1\CorreçãoProva.runtimeconfig.json
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\bin\Debug\netcoreapp2.1\CorreçãoProva.runtimeconfig.dev.json
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\bin\Debug\netcoreapp2.1\CorreçãoProva.dll
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\bin\Debug\netcoreapp2.1\CorreçãoProva.pdb
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\obj\Debug\netcoreapp2.1\CorreçãoProva.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\obj\Debug\netcoreapp2.1\CorreçãoProva.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\obj\Debug\netcoreapp2.1\CorreçãoProva.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\obj\Debug\netcoreapp2.1\CorreçãoProva.AssemblyInfo.cs
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\obj\Debug\netcoreapp2.1\CorreçãoProva.dll
+C:\Users\HP\source\repos\CorreçãoProva\CorreçãoProva\obj\Debug\netcoreapp2.1\CorreçãoProva.pdb
