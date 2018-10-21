@@ -69,7 +69,7 @@ namespace CorreçãoProva
 
             Console.WriteLine("Seu IMC é:" + seuimc);
             Console.WriteLine("sua classificação é " + imc.Classificar(imc.Calcular(peso, altura)));
-            Console.ReadKey();
+            Console.ReadKey(true);
 
 
 

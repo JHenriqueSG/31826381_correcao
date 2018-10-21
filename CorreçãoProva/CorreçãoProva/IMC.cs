@@ -32,60 +32,62 @@ namespace CorreçãoProva
 
         public string Classificar(double imc)
         {
-            
-                if (imc > 40.0)
-                {
-                    Console.WriteLine(" Obesidade grau 3 ");
 
-                }
-                else 
-                
-                if (imc < 40.0 && imc >= 35.0)
-                {
-                    Console.WriteLine(" Obesidade grau 2 ");
-                }
-                else 
-                
-                if (imc >= 30.0 && imc < 35.0)
-                {
-                    Console.WriteLine(" Obesidade grau 1 ");
-                }
-                else 
-                
-                if (imc >= 25.0 && imc < 30.0)
-                {
+            if (imc > 40.0)
+            {
+               return " Obesidade grau 3 ";
 
-                    Console.WriteLine(" Sobrepeso ");
-                }
-                else 
-                
-                if (imc >= 18.5 && imc < 25.0)
-                {
-                    Console.WriteLine(" Saudavel ");
-                }
-                else
-                
-                if (imc >= 17.0 && imc < 18.6)
-                {
-                    Console.WriteLine(" Magreza Leve ");
-                }
-                else
-                
-                if (imc >= 16.0 && imc < 17.0)
-                {
-                    Console.WriteLine(" Magreza moderada ");
-                }
-                else 
-                
-                if (imc < 16.0 && imc > 0)
-                {
-                    Console.WriteLine(" Magreza grave ");
-                    
-                }
+            }
+            else
+
+            if (imc < 40.0 && imc >= 35.0)
+            {
+                return " Obesidade grau 2 ";
+            }
+            else
+
+            if (imc >= 30.0 && imc < 35.0)
+            {
+                return " Obesidade grau 1 ";
+            }
+            else
+
+            if (imc >= 25.0 && imc < 30.0)
+            {
+
+                return " Sobrepeso ";
+            }
+            else
+
+            if (imc >= 18.5 && imc < 25.0)
+            {
+                return" Saudavel ";
+            }
+            else
+
+            if (imc >= 17.0 && imc < 18.6)
+            {
+                return" Magreza Leve ";
+            }
+            else
+
+            if (imc >= 16.0 && imc < 17.0)
+            {
+                return" Magreza moderada ";
+            }
+            else
+
+            if (imc < 16.0 && imc > 0)
+            {
+                return " Magreza grave ";
+
+            }
+            else
+                return "erro";
              
 
 
-            return Classificar(imc);
+           
 
         }
     }
