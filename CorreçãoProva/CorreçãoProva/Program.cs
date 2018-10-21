@@ -4,17 +4,19 @@ namespace CorreçãoProva
 {
     class Program
     {
+        static int Maior(int a, int b)
+        {
+            if (a > b)
+                return a;
+            else
+                return b;
+        }
+
         static void Main(string[] args)
         {
 
             
-            static int Maior(int a, int b)
-             {
-                if(a > b)
-                    return a;
-                else
-                    return b;
-            }
+
 
           
 
@@ -47,16 +49,31 @@ namespace CorreçãoProva
             Console.ReadKey(true);
 
 
+            /*2. O índice de massa corporal (IMC) é uma medida internacional usada para calcular se uma
+              pessoa está no peso ideal. Ele é determinado pela divisão da massa do indivíduo pelo
+              quadrado de sua altura, em que a massa está em quilogramas e a altura em metros.*/
+
+
+
+            
+
+            Console.WriteLine("Escreva seu peso:");
+            double peso = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite seu altura:");
+            double altura = double.Parse(Console.ReadLine());
+
+            IMC imc = new IMC(peso, altura);
+
+            double seuimc = imc.Calcular(peso, altura);
+
+            Console.WriteLine("Seu IMC é:" + seuimc);
+            Console.WriteLine("sua classificação é " + imc.Classificar(imc.Calcular(peso, altura)));
+            Console.ReadKey();
 
 
 
         }
-
-        /*2. O índice de massa corporal (IMC) é uma medida internacional usada para calcular se uma
-          pessoa está no peso ideal. Ele é determinado pela divisão da massa do indivíduo pelo
-          quadrado de sua altura, em que a massa está em quilogramas e a altura em metros.*/
-
-
 
 
 
